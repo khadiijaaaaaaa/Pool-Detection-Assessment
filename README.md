@@ -21,6 +21,7 @@ Sanadtech-Pool-Detection/
 ├── pool_detector.py       # Main CLI script for detection
 ├── best.pt                # Trained YOLOv8 Segmentation model
 └── requirements.txt       # Project dependencies
+```
 
 ## Approach
 To ensure accurate detection of **irregular shapes** (kidney, oval, L-shape) as requested, I used **Instance Segmentation** rather than standard object detection (bounding boxes).
