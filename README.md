@@ -20,6 +20,7 @@ Sanadtech-Pool-Detection/
 │
 ├── pool_detector.py       # Main CLI script for detection
 ├── best.pt                # Trained YOLOv8 Segmentation model
+├── README.md              # Readme file
 └── requirements.txt       # Project dependencies
 ```
 
