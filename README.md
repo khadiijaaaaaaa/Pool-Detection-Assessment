@@ -2,6 +2,26 @@
 
 This repository contains a CLI solution to detect swimming pools in aerial imagery. It generates a visual outline in blue and a text file containing the exact shape coordinates.
 
+## Project Structure
+
+```text
+Sanadtech-Pool-Detection/
+│
+├── input_images/          # Contains the original sample aerial images
+│   ├── 000000079.jpg
+│   └── ...
+│
+├── output_results/        # Generated results (images + coordinates)
+│   ├── output_000000079.jpg
+│   ├── coordinates_000000079.txt
+│   ├── output_000000216.jpg
+│   ├── coordinates_000000216.txt
+│   └── ...
+│
+├── pool_detector.py       # Main CLI script for detection
+├── best.pt                # Trained YOLOv8 Segmentation model
+└── requirements.txt       # Project dependencies
+
 ## Approach
 To ensure accurate detection of **irregular shapes** (kidney, oval, L-shape) as requested, I used **Instance Segmentation** rather than standard object detection (bounding boxes).
 
