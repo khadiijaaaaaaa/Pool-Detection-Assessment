@@ -57,4 +57,20 @@ The model achieved high accuracy on the validation set, effectively handling sha
 1. **Irregular Shapes (Kidney Pool)** Successfully detects curved edges where bounding boxes would fail.
 2. **Occlusions (Shadows) Successfully** detects the pool despite significant tree shadows.
 
+## Sample Results
+
+**1. Irregular Shapes (Kidney Pool)**
+Successfully detects curved edges where bounding boxes would fail.
+
+| Input Image | Detection Output |
+| :---: | :---: |
+| <img src="input_images/000000216.jpg" width="300" /> | <img src="output_results/output_000000216.jpg" width="300" /> |
+
+**2. Occlusions (Shadows)**
+Successfully detects the pool despite significant tree shadows.
+
+| Input Image | Detection Output |
+| :---: | :---: |
+| <img src="input_images/000000079.jpg" width="300" /> | <img src="output_results/output_000000079.jpg" width="300" /> |
+
 Full results for all sample images can be found in the `output_results/` folder.
