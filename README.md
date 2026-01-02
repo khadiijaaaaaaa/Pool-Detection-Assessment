@@ -54,10 +54,6 @@ The model achieved high accuracy on the validation set, effectively handling sha
     `coordinates_000000216.txt`: Text file with polygon coordinates.
 
 ## Sample Results
-1. **Irregular Shapes (Kidney Pool)** Successfully detects curved edges where bounding boxes would fail.
-2. **Occlusions (Shadows) Successfully** detects the pool despite significant tree shadows.
-
-## Sample Results
 
 | Input Image | Detection Output |
 | :---: | :---: |
